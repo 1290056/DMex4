@@ -17,11 +17,7 @@ public class HandT {
     }
     int x = 3 - count;
     System.out.println("Heads: "+count+", Tails: "+x);
-    if(count > x){
-	System.out.println("You won!");
-    }
-    if(count < x){
-	System.out.println("You lost.");
+ 
     }
   }
 
